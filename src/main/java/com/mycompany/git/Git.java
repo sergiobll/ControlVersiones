@@ -16,12 +16,12 @@ public static void main(String[] args) {
 
         int pass = 0;
 
-        while (pass != 1234){
+        while (pass != 12345){
 
             System.out.println("Introduce la contraseña");
             pass = en.nextInt();
 
-            if (pass == 1234) {
+            if (pass == 12345) {
                 System.out.println("Contraseña correcta");
 
             }else {
